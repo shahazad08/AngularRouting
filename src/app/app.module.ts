@@ -10,6 +10,9 @@ import { DemoComponentComponent } from './demo-component/demo-component.componen
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { UserComponent } from './routing/user/user.component';
 import { PageNotFoundComponent } from './routing/page-not-found/page-not-found.component';
+import { ProductComponent } from './routing/product/product.component';
+import { LaptopComponent } from './routing/product/laptop/laptop.component';
+import { MobileComponent } from './routing/product/mobile/mobile.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { PageNotFoundComponent } from './routing/page-not-found/page-not-found.c
     ContactusComponent,
     DemoComponentComponent,
     UserComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ProductComponent,
+    LaptopComponent,
+    MobileComponent
   ],
   imports: [
     BrowserModule,
